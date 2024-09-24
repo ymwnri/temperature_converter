@@ -15,6 +15,7 @@ def celcius_to_fahrenheit(celcius):
     Returns:
         float: The temperature converted to Fahrenheit.
     """
+    # Formula for celcius to fahrenheit conversion
     fahrenheit = (celcius * 9/5) + 32
     return fahrenheit
 
@@ -28,6 +29,7 @@ def fahrenheit_to_celcius(fahrenheit):
     Returns:
         float: The temperature converted to Celsius.
     """
+    # Formula for fahrenheit to celcius conversion
     celcius = (fahrenheit - 32) * 5/9
     return celcius
 
